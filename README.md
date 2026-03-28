@@ -55,21 +55,22 @@ Helping Snowman은<br>
 
 ## 🧩 프로젝트 구조
 
-Assets/
-├── BossStage/
-├── GameOverScene/
-├── GameTitleScene/
-├── GameWinScene/
-├── Prefab/
-├── Scenes/
-├── Scripts/
-├── Sprites/
-├── TextMesh Pro/
-├── TileMap/
-├── img/
-Packages/
-ProjectSettings/
-ScenePackage/
+helping-snowman-game-project/
+├── Assets/
+│ ├── BossStage/ # 보스 스테이지 리소스
+│ ├── GameOverScene/ # 게임 오버 씬
+│ ├── GameTitleScene/ # 타이틀 씬
+│ ├── GameWinScene/ # 클리어 씬
+│ ├── Prefab/ # 프리팹 오브젝트
+│ ├── Scenes/ # 메인 씬 파일
+│ ├── Scripts/ # 게임 로직 스크립트
+│ ├── Sprites/ # 이미지 및 스프라이트
+│ ├── TextMesh Pro/ # 텍스트 UI 리소스
+│ ├── TileMap/ # 타일맵 데이터
+│ └── img/ # 기타 이미지 리소스
+├── Packages/
+├── ProjectSettings/
+└── ScenePackage/ # 씬 패키지 파일
 
 <br><br><br>
 
