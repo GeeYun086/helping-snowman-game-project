@@ -54,7 +54,7 @@ Helping Snowman은<br>
 <br><br><br>
 
 ## 🧩 프로젝트 구조
-</>
+```bash
 helping-snowman-game-project/
 ├── Assets/
 │ ├── BossStage/ # 보스 스테이지 리소스
@@ -71,7 +71,7 @@ helping-snowman-game-project/
 ├── Packages/
 ├── ProjectSettings/
 └── ScenePackage/ # 씬 패키지 파일
-</>
+```
 <br><br><br>
 
 ## 🎯 역할 분담
