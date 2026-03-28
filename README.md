@@ -75,6 +75,7 @@ helping-snowman-game-project/
 │ ├── TextMesh Pro/ # 텍스트 UI 리소스
 │ ├── TileMap/ # 타일맵 데이터
 │ └── img/ # 기타 이미지 리소스
+├── Docs/
 ├── Packages/
 ├── ProjectSettings/
 └── ScenePackage/ # 씬 패키지 파일
@@ -90,8 +91,7 @@ helping-snowman-game-project/
 
 ### 🐻 이세진 (보스 & 디자인)
 - 최종 보스 곰 구현
-- 공격 패턴 설계 (내려치기, 포효, 꿀 공격)
-- 보스 상태 변화 (광폭화) 구현
+- 보스 상태 변화 (광폭화) 구현 및 공격 패턴 설계 (내려치기, 포효, 꿀 공격)
 - 캐릭터 및 애니메이션 디자인
 
 ### 🐰 정지윤 (에너미 & 아이템)
@@ -150,42 +150,43 @@ helping-snowman-game-project/
 ### 🎯 플레이어
 
 <p align="center">
-  <img src="./Docs/player.png" width="500"/>
+  <img src="./Docs/player.gif" width="500"/>
 </p>
 
 - 점프(↑) / 좌우이동(← →)
 - 눈 던지기 공격(Z) / 대쉬(X)
-- 피격 시 플레이어 몸 크기 감소, 체력 모두 소진 시 게임 종료
+- 에너미 밟기 가능
+- 장애물 또는 에너미 충돌 시 플레이어 몸 크기 감소, 체력 모두 소진 시 게임 종료
 
 <br>
 
 ### 🧟 에너미
 
 <p align="center">
-  <img src="./Docs/enemy.png" width="500"/>
+  <img src="./Docs/enemy.gif" width="500"/>
 </p>
 
 - 토끼: 점프하며 플레이어 방해, 곰: 좌우로 이동하며 플레이어 방해
-- 충돌 시 데미지 처리, 공격 시 소멸
+- 충돌 시 플레이어 데미지, 공격 시 소멸
 
 <br>
 
 ### 🐻 보스
 
 <p align="center">
-  <img src="./Docs/boss.png" width="500"/>
+  <img src="./Docs/boss.gif" width="500"/>
 </p>
 
-- 공격 시 데미지, hp가 모두 닳아야 성공
-- 다양한 공격 패턴
-- 상태 변화 (광폭화)
+- 공격 시 보스 데미지, 체력을 모두 닳도록 만들어야 게임 성공
+- 플레이어가 보스 공격에 5번 충돌 시 게임 종료
+- 다양한 공격 패턴 및 상태 변화 (내려치기, 포효, 꿀 공격)
 
 <br>
 
 ### 🎁 아이템
 
 <p align="center">
-  <img src="./Docs/item.png" width="500"/>
+  <img src="./Docs/item.gif" width="500"/>
 </p>
 
 - 눈 아이템 획득 시 체력 회복, 플레이어 몸 크기 증가
