@@ -1,9 +1,5 @@
 # ⛄ Helping Snowman
 
----
-
-## 🎨 포스터
-
 <p align="center">
   <img src="./Docs/poster.png" width="600"/>
 </p>
